@@ -1,0 +1,13 @@
+# #! /bin/bash
+# set -e
+#
+# is_mysql_ready() {
+#   mysqladmin ping | grep "mysqld is alive"
+# }
+#
+# while true; do
+#   is_mysql_ready && break;
+#   sleep 1;
+# done
+#
+# exec "$@"
